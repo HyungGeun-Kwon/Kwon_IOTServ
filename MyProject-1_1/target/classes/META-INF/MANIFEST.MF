@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: MyProject-1_1
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: ghg96
+Implementation-Vendor-Id: kr.inhatc.spring
+Build-Jdk: 1.8.0_101
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/MyProject-1_1
+Created-By: Maven Integration for Eclipse
+

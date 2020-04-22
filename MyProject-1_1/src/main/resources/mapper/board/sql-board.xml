@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 매퍼 불러오는것은(2~5) mybatis mapper xml 이라고 구글 검색해서  -->
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 주소는 해당 파일에서 우클릭 properties 에서 보면 된다. 단, / 을 . 으로 변경 -->
+<mapper namespace="kr.inhatc.spring.board.mapper.BoardMapper">
+	<select id="boardList" resultType="kr.inhatc.spring.board.dto.BoardDto">
+		SELECT board_idx, title, hit_cnt, 
+			TO_CHAR(create_datetime, 'YYYY-MM-DD') AS create_datetime
+		FROM T_BOARD
+	</select>
+</mapper>
